@@ -2,6 +2,6 @@
 
 ## Usage
 ```html
-<script src="https://cdn.jsdelivr.net/gh/JX3BOX/jx3box-article-ui@version/js/article.js" /></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JX3BOX/jx3box-article-ui@version/css/article.css" />
+<script src="https://cdn.jsdelivr.net/gh/JX3BOX/article@version/js/article.js" /></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JX3BOX/article@version/css/article.css" />
 ```
