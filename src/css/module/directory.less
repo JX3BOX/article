@@ -12,13 +12,16 @@
         word-break: keep-all;
         text-overflow: ellipsis;
         overflow: hidden;
-        &:hover {
-            // font-weight: 600;
-            color:#0366d6;
-        }
         letter-spacing: 0.2px;
         line-height: 20px;
         padding:8px 0;
+        &:hover *{
+            // font-weight: 600;
+            color:#0366d6;
+        }
+    }
+    a{
+        color:@color;
     }
 
     h1 {
