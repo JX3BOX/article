@@ -2,7 +2,7 @@
 
 ### 方式一
 ```javascript
-import '@jx3box/jx3box-article-ui/dist/css/article.css'
+import '@jx3box/jx3box-article-ui/css/article.css'
 ```
 
 ### 方式二
