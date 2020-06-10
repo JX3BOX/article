@@ -1,6 +1,6 @@
 {
   "name": "@jx3box/jx3box-article-ui",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "JX3BOX文章样式&编辑器内样式",
   "main": "dist/article.js",
   "repository": {
