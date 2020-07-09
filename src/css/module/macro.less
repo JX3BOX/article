@@ -70,6 +70,18 @@
 		white-space: normal;
 	}
 }
+@media print{
+	.w-jx3macro{
+		page-break-inside: avoid !important;
+		ol{
+            padding-left:0;
+        }
+        li {
+            list-style:none;
+            border-left:none;
+        }
+	}
+}
 
 //注释
 .jx3macro-comment{ color:#22863a;}

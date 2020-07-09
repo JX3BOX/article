@@ -6,7 +6,17 @@
         border-top: 1px dashed #aaa;
         height: 10px !important;
         margin: 20px auto;
-
+    }
+    .e-print-pagebreak{
+        border-bottom: 1px dotted #eee;
+        font-size:0;
+        &:after{
+            content:"🖨 打印分页占位符";
+            .db;
+            .x;
+            .fz(12px);
+            color:#999;
+        }
     }
 }
 .c-article-chunk{
@@ -25,4 +35,10 @@
     max-width:100%;
     overflow-x: auto;
     text-align: center;
+}
+@media print{
+    .w-print-pagebreak {
+        page-break-after: always;
+        .none;
+    }
 }
