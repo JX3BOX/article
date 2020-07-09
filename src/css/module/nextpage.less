@@ -1,5 +1,5 @@
-.c-article-editor{
-    .mce-pagebreak{
+.c-article-editor {
+    .mce-pagebreak {
         padding: 0;
         outline: none;
         border: none;
@@ -7,38 +7,48 @@
         height: 10px !important;
         margin: 20px auto;
     }
-    .e-print-pagebreak{
-        border-bottom: 1px dotted #eee;
-        font-size:0;
-        &:after{
-            content:"🖨 打印分页占位符";
-            .db;
-            .x;
-            .fz(12px);
-            color:#999;
-        }
-    }
 }
-.c-article-chunk{
-    display:none;
-    &.on{
+.c-article-chunk {
+    display: none;
+    &.on {
         display: block;
     }
 }
-.c-article-all{
+.c-article-all {
     width: 100%;
     margin: 10px auto !important;
     display: block !important;
 }
-.c-article-pages{
-    margin:10px;
-    max-width:100%;
+.c-article-pages {
+    margin: 10px;
+    max-width: 100%;
     overflow-x: auto;
     text-align: center;
 }
-@media print{
-    .w-print-pagebreak {
-        page-break-after: always;
+
+// 打印分页
+.c-article-editor {
+    .e-print-pagebreak {
+        border-bottom: 1px dotted #eee;
+        font-size: 0;
+        &:after {
+            content: "🖨 打印分页占位符";
+            .db;
+            .x;
+            .fz(12px);
+            color: #999;
+        }
+    }
+}
+.c-article {
+    .e-print-pagebreak {
         .none;
+    }
+}
+@media print {
+    .c-article {
+        .e-print-pagebreak {
+            page-break-after: always;
+        }
     }
 }
